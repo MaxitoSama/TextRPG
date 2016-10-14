@@ -1,0 +1,10 @@
+#include "enemies.h"
+//#include "../functionscharacters.cpp"
+
+#include "bandit1.cpp"
+#include "giantskeleton1.cpp"
+#include "gladiator1.cpp"
+#include "goblin1.cpp"
+#include "magicworm.cpp"
+#include "roguebandit1.cpp"
+#include "skeleton1.cpp"
