@@ -1,19 +1,21 @@
-build: generated/enemies.o generated/heroes.o
-	g++ -o Game src/main.cpp src/info_menu.cpp src/main_game.cpp \
-	generated/enemies.o generated/heroes.o generated/characters.o
+CC := g++
 
-generated/enemies.o: generated/characters.o
-	g++ -c src/Enemies/enemies.cpp
-	mv enemies.o generated
+buildtest: generated/enemies.o generated/heroes.o 
+	$(CC) -o Game src/*.cpp	generated/*.o
 
-generated/heroes.o: generated/characters.o
-	g++ -c src/Heroes/heroes.cpp
-	mv heroes.o generated
-
-generated/characters.o:
+generated/enemies.o: src/Enemies/*.cpp
 	mkdir -p generated
-	g++ -c src/characters.cpp
-	mv characters.o generated
+	$(CC) -c src/Enemies/*.cpp
+	ld -r *.o -o enemies.o
+	mv enemies.o generated
+	rm *.o
+
+generated/heroes.o: src/Heroes/*.cpp
+	mkdir -p generated
+	$(CC) -c src/Heroes/*.cpp
+	ld -r *.o -o heroes.o
+	mv heroes.o generated
+	rm *.o
 
 clean:
 	rm -rf generated

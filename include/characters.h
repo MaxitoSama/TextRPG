@@ -1,6 +1,3 @@
-#ifndef CHARACS_H
-#define CHARACS_H
-
 #include <iostream>
 #include <string>
 #include <vector>
@@ -26,5 +23,3 @@ protected:
   int health;
   int max_health;
 };
-
-#endif

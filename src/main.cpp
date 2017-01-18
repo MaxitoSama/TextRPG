@@ -2,7 +2,7 @@
 #include <fstream>
 #include <vector>
 
-#include "utils.cpp"
+#include "../include/utils.h"
 
 using namespace std;
 

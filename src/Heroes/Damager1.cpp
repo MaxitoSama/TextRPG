@@ -1,4 +1,4 @@
-#include "heroes.h"
+#include "../../include/Heroes/heroes.h"
 
 using namespace std;
 

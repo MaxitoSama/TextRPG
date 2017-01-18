@@ -1,8 +1,6 @@
-#include "heroes.h"
+#include "../../include/Heroes/heroes.h"
 
 using namespace std;
-
-//#include "characters.h"
 
 Tank1::Tank1(int lvl){
   turn = 0;

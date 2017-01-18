@@ -1,7 +1,6 @@
-#include "heroes.h"
+#include "../../include/Heroes/heroes.h"
 
 using namespace std;
-
 
 Heal2::Heal2(int lvl){
   turn = 0;

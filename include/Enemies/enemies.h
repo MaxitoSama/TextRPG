@@ -1,6 +1,3 @@
-#ifndef ENEMIES_H
-#define ENEMIES_H
-
 #include "../characters.h"
 
 class Enemy : public Charac{
@@ -80,5 +77,3 @@ private:
   int cacoon_turns;
   int dmg_multiplier;
 };
-
-#endif

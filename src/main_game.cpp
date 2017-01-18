@@ -4,8 +4,8 @@
 #include <vector>
 #include <memory>
 
-#include "Enemies/enemies.h"
-#include "Heroes/heroes.h"
+#include "../include/Enemies/enemies.h"
+#include "../include/Heroes/heroes.h"
 
 using namespace std;
 /////

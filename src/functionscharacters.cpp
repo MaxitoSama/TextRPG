@@ -1,9 +1,6 @@
-#ifndef FUNCTIONS_CHARACTERS_C
-#define FUNCTIONS_CHARACTERS_C
-
 #include <iostream>
 
-#include "functionscharacters.h"
+#include "../include/functionscharacters.h"
 using namespace std;
 
 
@@ -28,5 +25,3 @@ srand(time(NULL));
 int a=rand()%n+1;
 return a;
 }
-
-#endif

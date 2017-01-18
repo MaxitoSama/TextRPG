@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "utils.h"
+#include "../include/utils.h"
 
 using namespace std;
 

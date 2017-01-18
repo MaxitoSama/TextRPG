@@ -1,6 +1,3 @@
-#ifndef HEROES_H
-#define HEROES_H
-
 #include "../characters.h"
 #include "../utils.h"
 
@@ -59,5 +56,3 @@ public:
   void Stab(Charac&);
   void Stealth();
 };
-
-#endif
